@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Quick Access, More Exploration",
-  description: "Fly from Punta Arenas to King George Island and begin your Antarctic journey right away—no seasickness, no delays.",
+  title: "Fly the Drake",
+  description: "Skip the rough seas and fly directly to Antarctica, maximizing comfort and time in the White Continent.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Up-Close Encounters",
-  description: "Experience wildlife, glaciers, and surreal landscapes through daily zodiac landings and guided hikes with expert polar guides.",
+  title: "Boutique Polar Voyages",
+  description: "Sail with fewer than 75 guests aboard expedition-ready ships for a personalized, low-impact Antarctic adventure.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Boutique Expedition Ships",
-  description: "Sail aboard small, purpose-built vessels designed for polar cruising—featuring elegant cabins, gourmet dining, and open-deck wildlife viewing.",
+  title: "Expert-Led Exploration",
+  description: "Discover Antarctica with seasoned polar guides who bring science, wildlife, and history to life.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Tailored, Intimate Experience",
-  description: "With fewer than 75 guests per voyage, enjoy personalized service and deeper connections with your surroundings.",
+  title: "Sustainability in Action",
+  description: "Operates with a strong environmental commitment and supports ongoing conservation and scientific research initiatives.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Antartica 21 Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
